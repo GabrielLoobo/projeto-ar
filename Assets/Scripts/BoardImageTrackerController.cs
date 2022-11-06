@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class BoardImageTrackerController : MonoBehaviour
@@ -14,7 +15,7 @@ public class BoardImageTrackerController : MonoBehaviour
     private ARTrackedImageManager trackedImageManager;
 
     public GameObject board_prefab;
-    //public GameObject accept;
+    private Button accept;
     //public GameObject refuse;
 
     private GameObject i_board_prefab;
@@ -23,13 +24,26 @@ public class BoardImageTrackerController : MonoBehaviour
 
     private bool isBoardPlaced;
 
+
+    private void onConfirmClick()
+    {
+        Debug.Log("Click");
+        isBoardPlaced = true;
+        accept.onClick.RemoveAllListeners();
+        accept.gameObject.SetActive(false);
+    }
+
     private void Awake()
     {
         isBoardPlaced = false;
         trackedImageManager = GetComponent<ARTrackedImageManager>();
         i_board_prefab = Instantiate(board_prefab, Vector3.zero, Quaternion.identity);
-        Debug.Log(trackedImageManager);
         i_board_prefab.SetActive(false);
+
+        accept = GameObject.Find("Confirm-UI").GetComponent<Button>();
+        accept.onClick.AddListener(onConfirmClick);
+
+
 
         trackedImageManager.trackedImagesChanged += ImageChanged; // TODO: Talvez dê merda deixar isso aqui em vez do onEnable, confirmar depois
 
@@ -50,6 +64,7 @@ public class BoardImageTrackerController : MonoBehaviour
     {
         trackedImageManager.trackedImagesChanged -= ImageChanged;
     }
+
 
     private void ImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
@@ -72,21 +87,18 @@ public class BoardImageTrackerController : MonoBehaviour
 
     private void UpdateImage(ARTrackedImage trackedImage)
     {
-        Debug.Log("Update Image");
-        string name = trackedImage.referenceImage.name;
-        Vector3 position = trackedImage.transform.position;
-        Quaternion rotation = trackedImage.transform.rotation;
-
-
-
-        GameObject prefab = i_board_prefab;
         if (!isBoardPlaced)
         {
-            prefab.transform.position = position;
-            prefab.transform.rotation = rotation;
-            prefab.SetActive(true);
-            //isBoardPlaced = true;
-        }
+            Debug.Log("Update Image");
+            string name = trackedImage.referenceImage.name;
+            Vector3 position = trackedImage.transform.position;
+            Quaternion rotation = trackedImage.transform.rotation;
+
+            GameObject prefab = i_board_prefab;
+                prefab.transform.position = position;
+                prefab.transform.rotation = rotation;
+                prefab.SetActive(true);
+            }
 
 
         //string name = trackedImage.referenceImage.name;
