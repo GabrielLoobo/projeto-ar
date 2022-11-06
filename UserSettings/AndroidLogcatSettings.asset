@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "0054853742",
         "name": "com.DefaultCompany.ProjetoAR",
-        "processId": 31202,
+        "processId": 10722,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -103,6 +103,24 @@
             "name": "com.DefaultCompany.ProjetoAR",
             "processId": 31202,
             "exited": false
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 31704,
+            "exited": false
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 8017,
+            "exited": false
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 10722,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -156,7 +174,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "selected prefab board:",
+        "m_Filter": "sett",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

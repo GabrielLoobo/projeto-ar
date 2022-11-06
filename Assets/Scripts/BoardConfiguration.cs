@@ -26,7 +26,7 @@ public class BoardConfiguration : MonoBehaviour
             materialNames.Add(mat.name);
         }
 
-        setBoardPrefabMap("map2"); //   TODO: Isso está aqui como placeholder. Na prática, isso tem que ser chamado pelo componente de UI que seleciona o mapa
+        //setBoardPrefabMap("map2"); //   TODO: Isso está aqui como placeholder. Na prática, isso tem que ser chamado pelo componente de UI que seleciona o mapa
     }
 
     public  Material findMaterialByName(string matName)
