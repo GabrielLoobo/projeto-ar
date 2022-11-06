@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "0054853742",
         "name": "com.DefaultCompany.ProjetoAR",
-        "processId": 10722,
+        "processId": 13768,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -121,6 +121,24 @@
             "name": "com.DefaultCompany.ProjetoAR",
             "processId": 10722,
             "exited": false
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 12304,
+            "exited": false
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 13192,
+            "exited": false
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 13768,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -174,7 +192,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "sett",
+        "m_Filter": "tent",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
