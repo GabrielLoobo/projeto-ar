@@ -3,99 +3,105 @@
     "m_SelectedPackage": {
         "deviceId": "0054853742",
         "name": "com.DefaultCompany.ProjetoAR",
-        "processId": 30395,
+        "processId": 31202,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 10702,
+            "name": "com.motorola.launcher3",
+            "processId": 2682,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 11235,
+            "processId": 22406,
+            "exited": true
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 22954,
+            "exited": true
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 23500,
+            "exited": true
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 24149,
+            "exited": true
+        },
+        {
+            "deviceId": "0054853742",
+            "name": "com.DefaultCompany.ProjetoAR",
+            "processId": 24852,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 11774,
+            "processId": 25296,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 12288,
+            "processId": 26080,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 12873,
+            "processId": 26604,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 13340,
+            "processId": 27240,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 14466,
+            "processId": 27715,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 14925,
+            "processId": 28235,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 16078,
+            "processId": 28779,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 17115,
+            "processId": 29524,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 18359,
+            "processId": 30014,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 19113,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 23818,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 26267,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 30395,
+            "processId": 31202,
             "exited": false
         }
     ],
@@ -150,7 +156,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "selected prefab board:",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

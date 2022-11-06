@@ -497,6 +497,7 @@ GameObject:
   - component: {fileID: 388525031}
   - component: {fileID: 388525030}
   - component: {fileID: 388525036}
+  - component: {fileID: 388525039}
   - component: {fileID: 388525037}
   - component: {fileID: 388525038}
   m_Layer: 0
@@ -563,7 +564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d1090a58bbc76428db2084d70154ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackedImageManager: {fileID: 0}
+  boardConfiguration: {fileID: 388525039}
   board_prefab: {fileID: 812227170526761499, guid: c597377b45743f54daf80b9d1434471b,
     type: 3}
 --- !u!114 &388525038
@@ -580,6 +581,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placeblePrefab:
   - {fileID: 8117981607424853032, guid: ad6d8d66a0541f945b354863a1a773ba, type: 3}
+--- !u!114 &388525039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388525029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07594613e336b24487f2af4f72ce447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab_name: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
