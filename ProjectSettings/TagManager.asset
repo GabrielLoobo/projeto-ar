@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Confirm-UI
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - UI-BG
   - Water
   - UI
   - 
