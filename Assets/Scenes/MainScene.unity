@@ -1136,7 +1136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placeblePrefab:
   - {fileID: 8117981607424853032, guid: ad6d8d66a0541f945b354863a1a773ba, type: 3}
-  maxLife: 0
+  - {fileID: 9092770120538721262, guid: fe554c0991a845b4483f281760c0731f, type: 3}
+  maxLife: 20
 --- !u!114 &388525039
 MonoBehaviour:
   m_ObjectHideFlags: 0
