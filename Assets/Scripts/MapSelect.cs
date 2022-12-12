@@ -11,6 +11,7 @@ public class MapSelect : MonoBehaviour
     public void onClickSelectMap()
     {
         boardConfiguration.setBoardPrefabMap(mapName);
+        nextStep();
     }
 
     public void nextStep()
