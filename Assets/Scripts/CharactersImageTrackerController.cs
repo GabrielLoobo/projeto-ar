@@ -34,9 +34,8 @@ public class CharactersImageTrackerController : MonoBehaviour
             Debug.Log(string.Format("prefab charUI: {0}", characterUIElements));
             
             spawnedPrefabsLife.Add(prefab.name, maxLife);
-            characterUIElements.transform.Find("maxlife-text").GetComponent<Text>().text = string.Format("{0}", maxLife);
-            characterUIElements.transform.Find("currentlife-text").GetComponent<Text>().text = string.Format("{0}", maxLife);
             spawnedPrefabs.Add(prefab.name, newPrefab);
+            //Debug.Log(string.Format("prefab maxlife: ", characterUIElements.transform.GetChild(0)));
 
 
             void _dec()
@@ -53,6 +52,10 @@ public class CharactersImageTrackerController : MonoBehaviour
             characterUIElements.transform.Find("sub-button").GetComponent<Button>().onClick.AddListener(_dec);
             characterUIElements.transform.Find("add-button").GetComponent<Button>().onClick.RemoveAllListeners();
             characterUIElements.transform.Find("add-button").GetComponent<Button>().onClick.AddListener(_inc);
+
+            // TODO: Ajustar isso aqui. Por algum motivo mistico que eu não entendo, ele não está conseguindo selecionar os elementos do canvas (ta dando nullpointerexception)
+            characterUIElements.transform.Find("maxLifeText").GetComponent<Text>().text = string.Format("{0}", maxLife);
+            characterUIElements.transform.Find("currentLifeText").GetComponent<Text>().text = string.Format("{0}", maxLife);
         }
 
     }

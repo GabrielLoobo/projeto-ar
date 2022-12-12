@@ -1,47 +1,41 @@
 {
     "m_SelectedDeviceId": "0054853742",
     "m_SelectedPackage": {
-        "deviceId": "0054853742",
-        "name": "com.DefaultCompany.ProjetoAR",
-        "processId": 32543,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "0054853742",
-            "name": "com.motorola.launcher3",
-            "processId": 2573,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 23902,
+            "processId": 19089,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 26083,
+            "processId": 20173,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 27281,
+            "processId": 20695,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 31579,
+            "processId": 21399,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 32543,
+            "processId": 21975,
             "exited": false
         }
     ],
@@ -96,7 +90,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "prefab",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
