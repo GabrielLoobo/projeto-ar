@@ -1089,7 +1089,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mapa 3
+  m_text: 'Cidade medieval
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dfcda79716f78864f9606411d6870b3f, type: 2}
   m_sharedMaterial: {fileID: 8130852556475492124, guid: dfcda79716f78864f9606411d6870b3f,
@@ -1943,7 +1945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mapa 2
+  m_text: Campo de neve
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dfcda79716f78864f9606411d6870b3f, type: 2}
   m_sharedMaterial: {fileID: 8130852556475492124, guid: dfcda79716f78864f9606411d6870b3f,
@@ -2214,7 +2216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mapa 4
+  m_text: 'Floresta
 
 '
   m_isRightToLeft: 0
@@ -2352,7 +2354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mapa 1
+  m_text: "Ru\xEDnas"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dfcda79716f78864f9606411d6870b3f, type: 2}
   m_sharedMaterial: {fileID: 8130852556475492124, guid: dfcda79716f78864f9606411d6870b3f,
