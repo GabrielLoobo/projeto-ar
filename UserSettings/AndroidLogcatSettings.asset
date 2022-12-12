@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "0054853742",
         "name": "com.DefaultCompany.ProjetoAR",
-        "processId": 13768,
+        "processId": 32543,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,133 +11,37 @@
         {
             "deviceId": "0054853742",
             "name": "com.motorola.launcher3",
-            "processId": 2682,
+            "processId": 2573,
             "exited": false
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 22406,
+            "processId": 23902,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 22954,
+            "processId": 26083,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 23500,
+            "processId": 27281,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 24149,
+            "processId": 31579,
             "exited": true
         },
         {
             "deviceId": "0054853742",
             "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 24852,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 25296,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 26080,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 26604,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 27240,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 27715,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 28235,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 28779,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 29524,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 30014,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 31202,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 31704,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 8017,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 10722,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 12304,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 13192,
-            "exited": false
-        },
-        {
-            "deviceId": "0054853742",
-            "name": "com.DefaultCompany.ProjetoAR",
-            "processId": 13768,
+            "processId": 32543,
             "exited": false
         }
     ],
@@ -192,7 +96,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "tent",
+        "m_Filter": "",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 22732921}
   m_Layer: 0
   m_Name: AR Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1054,6 +1054,7 @@ GameObject:
   - component: {fileID: 388525039}
   - component: {fileID: 388525037}
   - component: {fileID: 388525038}
+  - component: {fileID: 388525040}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1135,6 +1136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placeblePrefab:
   - {fileID: 8117981607424853032, guid: ad6d8d66a0541f945b354863a1a773ba, type: 3}
+  maxLife: 0
 --- !u!114 &388525039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1149,6 +1151,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   board_prefab: {fileID: 0}
   selectedBoardName: 
+--- !u!114 &388525040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388525029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78c07a8435e918409ad15d84800f2c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charactersImageTrackerController: {fileID: 388525038}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

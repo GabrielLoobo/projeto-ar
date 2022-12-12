@@ -21,7 +21,6 @@ public class BoardImageTrackerController : MonoBehaviour
 
     private void onConfirmClick()
     {
-        Debug.Log("Click");
         isBoardPlaced = true;
         accept.onClick.RemoveAllListeners();
         accept.gameObject.SetActive(false);

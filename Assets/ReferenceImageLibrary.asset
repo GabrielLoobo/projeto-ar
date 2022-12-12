@@ -21,9 +21,9 @@ MonoBehaviour:
       m_GuidLow: 4724237338356719622
       m_GuidHigh: 7872686035388120726
     m_SerializedTextureGuid:
-      m_GuidLow: 5229812875938482176
-      m_GuidHigh: 17868893102199944683
-    m_Size: {x: 0.0254, y: 0.0254}
+      m_GuidLow: 17587922190240215381
+      m_GuidHigh: 5789216371431809579
+    m_Size: {x: 0.13, y: 0.20105012}
     m_SpecifySize: 1
     m_Name: board
     m_Texture: {fileID: 0}
@@ -31,9 +31,9 @@ MonoBehaviour:
       m_GuidLow: 4899371252033949865
       m_GuidHigh: 8063920942530077611
     m_SerializedTextureGuid:
-      m_GuidLow: 3491591495539882984
-      m_GuidHigh: 2523968279935458411
-    m_Size: {x: 0.0254, y: 0.0254}
+      m_GuidLow: 343508462708601294
+      m_GuidHigh: 6023777653939997769
+    m_Size: {x: 0.11, y: 0.1711111}
     m_SpecifySize: 1
     m_Name: char_1
     m_Texture: {fileID: 0}
